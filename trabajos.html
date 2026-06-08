@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trabajos — Ignacio Fudim</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">IF<span class="dot">.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+        <li><a href="trabajos.html" class="nav-active">Trabajos</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li class="nav-mobile-cta"><a href="mailto:nachofudim@gmail.com">Trabajemos juntos →</a></li>
+      </ul>
+      <a href="mailto:nachofudim@gmail.com" class="nav-cta">Trabajemos juntos</a>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="menu-overlay" id="menu-overlay"></div>
+
+  <div class="page-header">
+    <div class="container">
+      <span class="section-tag">Portfolio</span>
+      <h1>Mis <span class="accent">Trabajos</span></h1>
+    </div>
+  </div>
+
+  <section id="works">
+    <div class="container">
+      <div class="filter-row">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="video">Edición de Video</button>
+        <button class="filter-btn" data-filter="design">Diseño Gráfico</button>
+        <button class="filter-btn" data-filter="animation">Animación</button>
+        <button class="filter-btn" data-filter="social">Redes Sociales</button>
+        <button class="filter-btn" data-filter="motion">Motion</button>
+      </div>
+
+      <div class="works-grid" id="works-grid">
+
+        <div class="work-card featured" data-category="video"
+             data-type="video" data-src="www/showreel.mp4"
+             data-title="Showreel — Ignacio Fudim"
+             data-desc="Compilado personal de trabajos de diseño audiovisual y edición de video. Una muestra de mi recorrido y estilo.">
+          <div class="work-thumb video-thumb">
+            <video src="www/showreel.mp4" muted loop playsinline></video>
+            <div class="work-overlay"><span class="play-icon">▶</span></div>
+            <span class="work-cat-badge">⭐ Showreel</span>
+            <span class="featured-badge">Destacado</span>
+          </div>
+          <div class="work-info">
+            <h3>Portfolio Showreel</h3>
+            <p>Compilado personal — diseño audiovisual y edición de video</p>
+            <div class="work-tags"><span>Showreel</span><span>Premiere Pro</span><span>Edición</span></div>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="video animation motion"
+             data-type="video" data-src="www/ya-quiero-saber.mp4"
+             data-title="Ya Quiero Saber — Videoclip"
+             data-desc="Videoclip cinematográfico producido íntegramente. Dirección, filmación, montaje y postproducción completa.">
+          <div class="work-thumb video-thumb">
+            <video src="www/ya-quiero-saber.mp4" muted loop playsinline></video>
+            <div class="work-overlay"><span class="play-icon">▶</span></div>
+            <span class="work-cat-badge">Videoclip</span>
+          </div>
+          <div class="work-info">
+            <h3>Ya Quiero Saber — Videoclip</h3>
+            <p>Dirección, filmación y postproducción completa · 2024</p>
+            <div class="work-tags"><span>Premiere Pro</span><span>Cinematografía</span><span>Color Grade</span></div>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="animation video"
+             data-type="video" data-src="www/rotoscopia.mp4"
+             data-title="Rotoscopía — Animación 2D"
+             data-desc="Técnica de animación rotoscopia frame a frame sobre referencia real. Trabajo de Animación 2D con Photoshop y After Effects.">
+          <div class="work-thumb video-thumb">
+            <video src="www/rotoscopia.mp4" muted loop playsinline></video>
+            <div class="work-overlay"><span class="play-icon">▶</span></div>
+            <span class="work-cat-badge">Animación 2D</span>
+          </div>
+          <div class="work-info">
+            <h3>Rotoscopía — Michael Jackson</h3>
+            <p>Animación 2D frame a frame sobre referencia real · 2024</p>
+            <div class="work-tags"><span>Photoshop</span><span>After Effects</span><span>Frame a Frame</span></div>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="video social motion"
+             data-type="video" data-src="www/rb-analista-1.mp4"
+             data-title="RB Analista — Contenido Vol. 1"
+             data-desc="Producción de contenido para canal de análisis deportivo. Motion graphics, edición y postproducción para Publigram Agency.">
+          <div class="work-thumb video-thumb">
+            <video src="www/rb-analista-1.mp4" muted loop playsinline></video>
+            <div class="work-overlay"><span class="play-icon">▶</span></div>
+            <span class="work-cat-badge">Redes Sociales</span>
+          </div>
+          <div class="work-info">
+            <h3>RB Analista — Vol. 1</h3>
+            <p>Contenido digital para análisis deportivo · Publigram Agency</p>
+            <div class="work-tags"><span>Motion</span><span>Edición</span><span>Social Media</span></div>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="video social motion"
+             data-type="video" data-src="www/rb-analista-2.mp4"
+             data-title="RB Analista — Contenido Vol. 2"
+             data-desc="Serie de videos para canal de análisis deportivo. Edición dinámica con motion graphics.">
+          <div class="work-thumb video-thumb">
+            <video src="www/rb-analista-2.mp4" muted loop playsinline></video>
+            <div class="work-overlay"><span class="play-icon">▶</span></div>
+            <span class="work-cat-badge">Redes Sociales</span>
+          </div>
+          <div class="work-info">
+            <h3>RB Analista — Vol. 2</h3>
+            <p>Contenido digital para análisis deportivo · Publigram Agency</p>
+            <div class="work-tags"><span>Motion</span><span>Edición</span><span>Branding</span></div>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="design social"
+             data-type="image" data-src="www/rb-analista-imagen.png"
+             data-title="RB Analista — Diseño Gráfico"
+             data-desc="Piezas gráficas para contenido de análisis deportivo en redes sociales. Composición, tipografía y paleta de marca.">
+          <div class="work-thumb img-thumb">
+            <img src="www/rb-analista-imagen.png" alt="RB Analista Diseño" />
+            <div class="work-overlay"><span class="play-icon">✦</span></div>
+            <span class="work-cat-badge">Diseño Gráfico</span>
+          </div>
+          <div class="work-info">
+            <h3>RB Analista — Branding</h3>
+            <p>Piezas gráficas para redes sociales · Publigram Agency</p>
+            <div class="work-tags"><span>Photoshop</span><span>Branding</span><span>Instagram</span></div>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="video motion design"
+             data-type="video" data-src="www/flyer-jet.mp4"
+             data-title="Flyer Jet — Motion Graphics"
+             data-desc="Flyer animado con motion graphics para proyecto propio. Diseño, animación y compositing.">
+          <div class="work-thumb video-thumb">
+            <video src="www/flyer-jet.mp4" muted loop playsinline></video>
+            <div class="work-overlay"><span class="play-icon">▶</span></div>
+            <span class="work-cat-badge">Motion</span>
+          </div>
+          <div class="work-info">
+            <h3>Flyer Jet — Animado</h3>
+            <p>Motion graphics · pieza publicitaria animada</p>
+            <div class="work-tags"><span>After Effects</span><span>Motion</span><span>Compositing</span></div>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="video social"
+             data-type="video" data-src="www/telegram-4.mp4"
+             data-title="Retos Triunfadores — Canal Telegram"
+             data-desc="Video promocional para canal de Telegram. Edición dinámica con efectos de impacto y motion graphics.">
+          <div class="work-thumb video-thumb">
+            <video src="www/telegram-4.mp4" muted loop playsinline></video>
+            <div class="work-overlay"><span class="play-icon">▶</span></div>
+            <span class="work-cat-badge">Video / Social</span>
+          </div>
+          <div class="work-info">
+            <h3>Retos Triunfadores</h3>
+            <p>Videos promocionales para canal de Telegram · Publigram Agency</p>
+            <div class="work-tags"><span>Edición</span><span>Motion</span><span>Efectos</span></div>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="video social"
+             data-type="video" data-src="www/telegram-2.mp4"
+             data-title="Retos Triunfadores — Vol. 2"
+             data-desc="Segunda pieza de la serie de videos para canal de Telegram.">
+          <div class="work-thumb video-thumb">
+            <video src="www/telegram-2.mp4" muted loop playsinline></video>
+            <div class="work-overlay"><span class="play-icon">▶</span></div>
+            <span class="work-cat-badge">Video / Social</span>
+          </div>
+          <div class="work-info">
+            <h3>Retos Triunfadores — Vol. 2</h3>
+            <p>Videos para canal de Telegram · Publigram Agency</p>
+            <div class="work-tags"><span>Edición</span><span>Motion</span><span>Efectos</span></div>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="video social motion"
+             data-type="video" data-src="www/atletico-nacional.mp4"
+             data-title="Atlético Nacional — Contenido"
+             data-desc="Pieza audiovisual para contenido deportivo. Edición y diseño para canal de análisis.">
+          <div class="work-thumb video-thumb">
+            <video src="www/atletico-nacional.mp4" muted loop playsinline></video>
+            <div class="work-overlay"><span class="play-icon">▶</span></div>
+            <span class="work-cat-badge">Deportivo</span>
+          </div>
+          <div class="work-info">
+            <h3>Atlético Nacional</h3>
+            <p>Contenido deportivo · Publigram Agency</p>
+            <div class="work-tags"><span>Edición</span><span>Motion</span><span>Deportes</span></div>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="video motion"
+             data-type="video" data-src="www/audiovisual-1.mp4"
+             data-title="Pieza Audiovisual I" data-desc="Producción audiovisual — edición y postproducción.">
+          <div class="work-thumb video-thumb">
+            <video src="www/audiovisual-1.mp4" muted loop playsinline></video>
+            <div class="work-overlay"><span class="play-icon">▶</span></div>
+            <span class="work-cat-badge">Audiovisual</span>
+          </div>
+          <div class="work-info">
+            <h3>Pieza Audiovisual I</h3>
+            <p>Producción y edición audiovisual</p>
+            <div class="work-tags"><span>Edición</span><span>Video</span></div>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="video motion"
+             data-type="video" data-src="www/audiovisual-2.mp4"
+             data-title="Pieza Audiovisual II" data-desc="Producción audiovisual — edición y postproducción.">
+          <div class="work-thumb video-thumb">
+            <video src="www/audiovisual-2.mp4" muted loop playsinline></video>
+            <div class="work-overlay"><span class="play-icon">▶</span></div>
+            <span class="work-cat-badge">Audiovisual</span>
+          </div>
+          <div class="work-info">
+            <h3>Pieza Audiovisual II</h3>
+            <p>Producción y edición audiovisual</p>
+            <div class="work-tags"><span>Edición</span><span>Video</span></div>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="video motion"
+             data-type="video" data-src="www/audiovisual-3.mp4"
+             data-title="Pieza Audiovisual III" data-desc="Producción audiovisual — edición y postproducción.">
+          <div class="work-thumb video-thumb">
+            <video src="www/audiovisual-3.mp4" muted loop playsinline></video>
+            <div class="work-overlay"><span class="play-icon">▶</span></div>
+            <span class="work-cat-badge">Audiovisual</span>
+          </div>
+          <div class="work-info">
+            <h3>Pieza Audiovisual III</h3>
+            <p>Producción y edición audiovisual</p>
+            <div class="work-tags"><span>Edición</span><span>Video</span></div>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="video social"
+             data-type="video" data-src="www/audiovisual-4.mp4"
+             data-title="Pieza Audiovisual IV" data-desc="Producción audiovisual — edición y postproducción.">
+          <div class="work-thumb video-thumb">
+            <video src="www/audiovisual-4.mp4" muted loop playsinline></video>
+            <div class="work-overlay"><span class="play-icon">▶</span></div>
+            <span class="work-cat-badge">Audiovisual</span>
+          </div>
+          <div class="work-info">
+            <h3>Pieza Audiovisual IV</h3>
+            <p>Producción y edición audiovisual</p>
+            <div class="work-tags"><span>Edición</span><span>Video</span></div>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="video motion"
+             data-type="video" data-src="www/audiovisual-5.mp4"
+             data-title="Pieza Audiovisual V" data-desc="Producción audiovisual — edición y postproducción.">
+          <div class="work-thumb video-thumb">
+            <video src="www/audiovisual-5.mp4" muted loop playsinline></video>
+            <div class="work-overlay"><span class="play-icon">▶</span></div>
+            <span class="work-cat-badge">Audiovisual</span>
+          </div>
+          <div class="work-info">
+            <h3>Pieza Audiovisual V</h3>
+            <p>Producción y edición audiovisual</p>
+            <div class="work-tags"><span>Edición</span><span>Video</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-box">
+      <button class="modal-close" id="modal-close">✕</button>
+      <div id="modal-media"></div>
+      <div class="modal-text">
+        <h3 id="modal-title"></h3>
+        <p id="modal-desc"></p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <a href="index.html" class="nav-logo">IF<span class="dot">.</span></a>
+        <p>© 2025 Ignacio Fudim — Diseñador Multimedial & Editor de Video</p>
+        <div class="footer-links">
+          <a href="mailto:nachofudim@gmail.com">Email</a>
+          <a href="https://instagram.com/nachofudim" target="_blank">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
